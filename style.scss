@@ -13,7 +13,7 @@ header {
     padding: 20px 10%;
 }
 
-.brand {
+.brand a {
     
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 40px;
@@ -49,12 +49,17 @@ header {
         display: block;
     }
     
-    .brand  { 
+    .brand { 
         text-align: center;
+        margin: auto;
+        
     }
     .nav_links li {
-        align-items: center;
         display: inline-block;
+    }
+    nav {
+        margin: auto;
+        text-align: center;
     }
 }
 
