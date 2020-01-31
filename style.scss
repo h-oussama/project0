@@ -45,14 +45,16 @@ header {
 }
 
 @media screen and (max-width: 600px){
+    header {
+        display: block;
+    }
     
-    .brand { 
-
-        width: 100%;
-        padding: 10%;
+    .brand  { 
+        text-align: center;
     }
     .nav_links li {
-        width: 100%;
+        align-items: center;
+        display: inline-block;
     }
 }
 

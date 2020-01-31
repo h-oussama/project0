@@ -32,11 +32,14 @@ header {
       color: #86c232; }
 
 @media screen and (max-width: 600px) {
-  .brand {
-    width: 100%;
-    padding: 10%; }
+  header {
+    display: block; }
+
+  .brand a {
+    text-align: center; }
 
   .nav_links li {
-    width: 100%; } }
+    align-items: center;
+    display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
