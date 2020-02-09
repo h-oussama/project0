@@ -6,7 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #fc5185;
+    background-color: #dee1ec;
 }
 header {
     display: flex;
@@ -19,25 +19,28 @@ header {
     
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
-    color: #364f6b;
+    color: #10316b;
 }
 .nav_links{
     list-style: none;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 
     li{
         display: inline-block;
         padding: 10px;
         a{
             text-decoration: none;
-            color: #364f6b;
+            color: #10316b;
 
             transition: all 0.3s ease 0s;
 
         }
         a:hover {
+
+            color: #eac100;
 
 
         }
@@ -56,6 +59,7 @@ header {
             padding-left: 10%;
             padding-top: 40px;
             font-family: 'Montserrat', sans-serif;
+            color: #0b8457;
         }
 
         p{
@@ -63,6 +67,7 @@ header {
             text-justify: inter-word;
             padding: 20px 10%;
             font-family: 'Montserrat', sans-serif;
+            color: #10316b;
         }
 }
 

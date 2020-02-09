@@ -5,7 +5,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #fc5185;
+  background-color: #dee1ec;
 }
 
 header {
@@ -24,14 +24,15 @@ header {
 .brand a {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
-  color: #364f6b;
+  color: #10316b;
 }
 
 .nav_links {
   list-style: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .nav_links li {
@@ -41,9 +42,13 @@ header {
 
 .nav_links li a {
   text-decoration: none;
-  color: #364f6b;
+  color: #10316b;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #eac100;
 }
 
 .first {
@@ -56,6 +61,7 @@ header {
   padding-left: 10%;
   padding-top: 40px;
   font-family: 'Montserrat', sans-serif;
+  color: #0b8457;
 }
 
 .first p {
@@ -63,6 +69,7 @@ header {
   text-justify: inter-word;
   padding: 20px 10%;
   font-family: 'Montserrat', sans-serif;
+  color: #10316b;
 }
 
 @media screen and (max-width: 600px) {
