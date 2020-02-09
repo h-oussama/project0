@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #0B0c10;
+    background-color: #fc5185;
 }
 header {
     display: flex;
@@ -15,33 +17,53 @@ header {
 
 .brand a {
     
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 500;
     text-decoration: none;
-    color: #66fcf1;
+    color: #364f6b;
 }
 .nav_links{
     list-style: none;
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
     li{
         display: inline-block;
         padding: 10px;
         a{
             text-decoration: none;
-            color: #66fcf1;
+            color: #364f6b;
 
             transition: all 0.3s ease 0s;
 
         }
         a:hover {
 
-            color: #86c232;
 
         }
 
     }
+}
+
+.first {
+
+        width: auto;
+        height: 200px;
+
+        h1{
+
+            text-align: left;
+            padding-left: 10%;
+            padding-top: 40px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p{
+            text-align: justify;
+            text-justify: inter-word;
+            padding: 20px 10%;
+            font-family: 'Montserrat', sans-serif;
+        }
 }
 
 @media screen and (max-width: 600px){
